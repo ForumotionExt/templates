@@ -1,0 +1,107 @@
+{
+  "version": 1,
+  "categories": [
+    { "key": "main",       "label": "General"                      },
+    { "key": "portal",     "label": "Portal"                       },
+    { "key": "gallery",    "label": "Gallery"                      },
+    { "key": "calendar",   "label": "Calendar"                     },
+    { "key": "group",      "label": "Groups"                       },
+    { "key": "post",       "label": "Post & Private Messages"      },
+    { "key": "moderation", "label": "Moderation"                   },
+    { "key": "profil",     "label": "Profile"                      },
+    { "key": "mobile",     "label": "Mobile"                       }
+  ],
+  "templates": [
+    {
+      "id": "116",
+      "label": "overall_header",
+      "description": "Forum header — opens the HTML document and renders the top navigation bar.",
+      "category": "main",
+      "file": "catalog/main/116.html"
+    },
+    {
+      "id": "115",
+      "label": "overall_footer_begin",
+      "description": "First part of the forum footer — closes the main content wrappers and renders the jump-box.",
+      "category": "main",
+      "file": "catalog/main/115.html"
+    },
+    {
+      "id": "133",
+      "label": "overall_footer_end",
+      "description": "Final part of the forum footer — renders footer links, Facebook SDK, and closes the HTML document.",
+      "category": "main",
+      "file": "catalog/main/133.html"
+    },
+    {
+      "id": "110",
+      "label": "index_body",
+      "description": "Forum index page — login form, board index, statistics, chatbox and birthday widgets.",
+      "category": "main",
+      "file": "catalog/main/110.html"
+    },
+    {
+      "id": "111",
+      "label": "index_box",
+      "description": "Category and forum listing boxes shown on the forum index page.",
+      "category": "main",
+      "file": "catalog/main/111.html"
+    },
+    {
+      "id": "113",
+      "label": "memberlist_body",
+      "description": "Member list page — search/filter form and grid of member cards.",
+      "category": "main",
+      "file": "catalog/main/113.html"
+    },
+    {
+      "id": "114",
+      "label": "message_body",
+      "description": "Generic error/info message page.",
+      "category": "main",
+      "file": "catalog/main/114.html"
+    },
+    {
+      "id": "118",
+      "label": "search_body",
+      "description": "Search page — keyword, author, forum and sort options.",
+      "category": "main",
+      "file": "catalog/main/118.html"
+    },
+    {
+      "id": "127",
+      "label": "viewtopic_body",
+      "description": "Topic view page — post list with avatars, signatures, reactions and quick-reply form.",
+      "category": "main",
+      "file": "catalog/main/127.html"
+    },
+    {
+      "id": "125",
+      "label": "viewforum_body",
+      "description": "Forum view page — topic list with sort options and online users.",
+      "category": "main",
+      "file": "catalog/main/125.html"
+    },
+    {
+      "id": "130",
+      "label": "topics_blog_box",
+      "description": "Blog-style topic listing box used in forum view.",
+      "category": "main",
+      "file": "catalog/main/130.html"
+    },
+    {
+      "id": "131",
+      "label": "viewcomments_body",
+      "description": "Blog comment view page — comment list with posting form.",
+      "category": "main",
+      "file": "catalog/main/131.html"
+    },
+    {
+      "id": "126",
+      "label": "viewonline_body",
+      "description": "Online users page — table of registered users, bots and guests currently browsing.",
+      "category": "main",
+      "file": "catalog/main/126.html"
+    }
+  ]
+}
